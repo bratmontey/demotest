@@ -1,0 +1,32 @@
+    1  cd demotest/
+    2  ls
+    3  touch f1
+    4  ls
+    5  git status
+    6  git add .
+    7  git status
+    8  git commit -m "first commit"
+    9  git branches
+   10  git branch
+   11  git push origin master
+   12  git pull origin master
+   13  ls
+   14  cat f1
+   15  vi f1
+   16  git add .
+   17  git commit -m "second commit"
+   18  git push origin master
+   19  git pull origin master
+   20  git status
+   21  cat f1
+   22  vi f1
+   23  git merge --continue
+   24  ls
+   25  git status
+   26  git add f1
+   27  git status
+   28  git commit -m "third commit"
+   29  git push origin master
+   30  git log 
+   31  history
+   32  history >history.txt
